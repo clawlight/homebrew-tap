@@ -1,15 +1,15 @@
 class Clawlight < Formula
   desc "TUI dashboard and macOS menu bar indicator for Claude Code sessions"
   homepage "https://github.com/clawlight/clawlight-cli"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/clawlight/clawlight-cli/releases/download/v0.10.0/clawlight-v0.10.0-aarch64-apple-darwin.tar.gz"
-    sha256 "384665706aae6e7711efe1822be5fcd72f708288d531197a6f485b46139daf09"
+    url "https://github.com/clawlight/clawlight-cli/releases/download/v0.10.1/clawlight-v0.10.1-aarch64-apple-darwin.tar.gz"
+    sha256 "5d33560aa80b5f115a515ee80576cb6006461a0990ec730314366c6e49de565b"
   else
-    url "https://github.com/clawlight/clawlight-cli/releases/download/v0.10.0/clawlight-v0.10.0-x86_64-apple-darwin.tar.gz"
-    sha256 "4442db526b55d7c065282bece5541fe814dd17ff073b0ffe1dcf90482a231856"
+    url "https://github.com/clawlight/clawlight-cli/releases/download/v0.10.1/clawlight-v0.10.1-x86_64-apple-darwin.tar.gz"
+    sha256 "229e759307675f23f56797349e0b8194e9441b5d640d948367693869d1977262"
   end
 
   def install
